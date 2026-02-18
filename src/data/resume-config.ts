@@ -319,7 +319,7 @@ export const resumeConfig: ResumeConfig = {
   ],
 
   theme: {
-    preset: 'slate',
+    preset: 'forest',
   },
 
   labels: {
