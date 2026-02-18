@@ -253,6 +253,39 @@ export const resumeConfig: ResumeConfig = {
       en: 'Administration of Citrix farms and internal IT services.',
     },
     techs: ['Citrix', 'VMware', 'Hyper-V', 'Veeam'],
+    details: {
+      context: {
+        fr: 'Siège social de la société Biltema',
+        en: 'Headquarters of Biltema.',
+      },
+      tasks: {
+        fr: [
+          'Administration avancée d\'environnements Citrix : Gestion complète des fermes (versions 6.5, 7.15 et Citrix Cloud) pour garantir la disponibilité des applications et bureaux virtuels',
+          'Pilotage d\'architectures multi-hyperviseurs : Administration et optimisation des plateformes VMware, Hyper-V, Proxmox et mise en œuvre de conteneurs Docker',
+          'Gestion des systèmes collaboratifs : Administration des serveurs de messagerie Exchange et des solutions de communication unifiée Skype for Business',
+          'Maintien de la résilience des données : Configuration, déploiement et monitoring des politiques de sauvegarde via Veeam Backup & Replication et Veritas BackupExec',
+          'Sécurité & Conformité : Supervision de la sécurité des bases de données MSSQL et administration de la solution d\'archivage légal DocuWare (secteur financier)',
+          'Gestion de la sécurité Endpoint : Administration centralisée de la console McAfee ePO pour la protection du parc',
+		  'Supervision & Monitoring : Surveillance proactive de l\'état de santé du hardware et du software pour assurer une continuité de service optimale',
+		  'Industrialisation & Support : Création de packages de déploiement, gestion du cycle de vie des incidents (Support Niveau 2) et administration de l\'outil de ticketing',
+        ],
+        en: [
+          'Citrix Environment Administration: Managed and optimized complex Citrix farms (6.5, 7.15, and Citrix Cloud) to ensure high availability of virtual apps and desktops',
+          'Multi-Hypervisor Management: Administered and maintained virtualization platforms including VMware, Hyper-V, and Proxmox; deployed and orchestrated Docker containers',
+          'Unified Communications & Messaging: Managed enterprise-level messaging systems (Exchange) and collaborative solutions (Skype for Business)',
+          'Backup & Disaster Recovery: Configured and managed robust backup strategies using Veeam Backup & Replication and Veritas BackupExec',
+          'Database Security & Compliance: Supervised MSSQL database security and administered Docuware for legal and financial archiving compliance',
+          'Endpoint Security Management: Centralized security administration via McAfee ePO to ensure workstation and server integrity',
+		  'Infrastructure Monitoring (MCO): Proactively monitored hardware and software health to minimize downtime and ensure optimal performance',
+		  'System Lifecycle Management: Handled software packaging, tool deployment, and managed internal ticketing systems',
+		  'Tier 2 Technical Support: Provided advanced troubleshooting and resolution for complex technical incidents, ensuring high user satisfaction',
+        ],
+      },
+      env: {
+        fr: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
+        en: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
+      },
+    },
   },
   {
     id: 'birgma-servicedesk',
@@ -265,6 +298,30 @@ export const resumeConfig: ResumeConfig = {
       en: 'Level 1 support and IT asset management.',
     },
     techs: ['Windows', 'ITSM'],
+    details: {
+      context: {
+        fr: 'Entreprise agroalimentaire suisse avec infrastructure multi-sites.',
+        en: 'Swiss food industry company with multi-site infrastructure.',
+      },
+      tasks: {
+        fr: [
+          'Support Utilisateurs Niveau 1 : Prise en charge des incidents et demandes de proximité, diagnostic et résolution des problématiques postes de travail',
+          'Gestion du Cycle de Vie du Matériel (IT Asset Management) : Responsable de l\'inventaire des actifs informatiques et financiers ; gestion des achats, de la réception et de la préparation (masterisation) du nouveau matériel',
+          'Maintenance & Packaging Applicatif : Pilotage des mises à jour software/hardware et création de packages pour le déploiement automatisé',
+          'Supervision des Services Critiques : Monitoring et dépannage des services d\'infrastructure (Active Directory, serveurs d\'impression, téléphonie IP et solutions antivirus)',
+        ],
+        en: [
+          'Tier 1 Technical Support: Provided first-line incident response and resolution for end-users, ensuring workstation stability and user productivity',
+          'IT Asset Management (ITAM): Managed the full lifecycle of IT and financial assets, including procurement, inventory auditing, and hardware provisioning',
+          'Hardware & Software Lifecycle: Executed hardware upgrades and software packaging to ensure fleet-wide security and compliance',
+          'Infrastructure Services Monitoring: Maintained and choreographed troubleshooting for core services including Active Directory (AD), print servers, VoIP systems, and antivirus solutions',
+        ],
+      },
+      env: {
+        fr: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
+        en: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
+      },
+    },
   },
 ],
 
