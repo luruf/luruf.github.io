@@ -127,69 +127,147 @@ export const resumeConfig: ResumeConfig = {
     },
   ],
 
-  experiences: [
-    {
-      id: 'cremo',
-      company: { fr: 'Cremo SA', en: 'Cremo SA' },
-      role: { fr: 'Administrateur système et réseau', en: 'System & Network Administrator' },
-      type: { fr: 'CDI', en: 'Permanent Contract' },
-      period: { fr: '06/2024 - Présent', en: '06/2024 - Present' },
-      description: {
-        fr: 'Administration et amélioration continue de l\'infrastructure système et réseau.',
-        en: 'Administration and continuous improvement of system and network infrastructure.',
-      },
-      details: { fr: 'Test', en: 'Test' },
-      techs: ['Windows Server', 'Microsoft 365', 'VMware', 'NetApp', 'Veeam', 'Check Point', 'HPE Aruba'],
+experiences: [
+  {
+    id: 'cremo',
+    company: { fr: 'Cremo SA', en: 'Cremo SA' },
+    role: { fr: 'Administrateur système et réseau', en: 'System & Network Administrator' },
+    type: { fr: 'CDI', en: 'Permanent Contract' },
+    period: { fr: '06/2024 - Présent', en: '06/2024 - Present' },
+    description: {
+      fr: 'Administration et amélioration continue de l\'infrastructure système et réseau.',
+      en: 'Administration and continuous improvement of system and network infrastructure.',
     },
-    {
-      id: 'ixion-l3',
-      company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
-      role: { fr: 'Senior Specialist L3', en: 'Senior Specialist L3' },
-      type: { fr: 'CDI', en: 'Permanent Contract' },
-      period: { fr: '04/2023 - 05/2024', en: '04/2023 - 05/2024' },
-      description: {
-        fr: 'Support niveau 3 et référent technique Windows, Linux et services.',
-        en: 'Level 3 support and technical lead for Windows, Linux and services.',
+    techs: ['Windows Server', 'Microsoft 365', 'VMware', 'NetApp', 'Veeam', 'Check Point', 'HPE Aruba'],
+    isHighlighted: true,
+    details: {
+      context: {
+        fr: 'Entreprise agroalimentaire suisse avec infrastructure multi-sites.',
+        en: 'Swiss food industry company with multi-site infrastructure.',
       },
-      techs: ['Windows Server', 'Linux'],
-    },
-    {
-      id: 'ixion-engineer',
-      company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
-      role: { fr: 'System Engineer', en: 'System Engineer' },
-      type: { fr: 'CDI', en: 'Permanent Contract' },
-      period: { fr: '11/2020 - 03/2023', en: '11/2020 - 03/2023' },
-      description: {
-        fr: 'Administration d\'infrastructures internes et cloud pour clients.',
-        en: 'Administration of internal and client cloud infrastructures.',
+      tasks: {
+        fr: [
+          'Support niveau 2 et 3',
+          'Administration des serveurs Windows et de l\'environnement Microsoft 365',
+          'Gestion de la virtualisation VMware',
+          'Administration stockage NetApp et sauvegardes Veeam',
+          'Gestion firewall Check Point et réseau HPE Aruba',
+          'Automatisation et amélioration des services via PowerShell',
+        ],
+        en: [
+          'Level 2 and 3 support',
+          'Administration of Windows Servers and Microsoft 365 environment',
+          'VMware virtualization management',
+          'NetApp storage and Veeam backup administration',
+          'Check Point firewall and HPE Aruba network management',
+          'Service automation and improvements using PowerShell',
+        ],
       },
-      techs: ['VMware', 'Nutanix', 'Azure', 'Veeam', 'Centreon'],
-    },
-    {
-      id: 'birgma-admin',
-      company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
-      role: { fr: 'System Administrator', en: 'System Administrator' },
-      type: { fr: 'CDI', en: 'Permanent Contract' },
-      period: { fr: '08/2019 - 11/2020', en: '08/2019 - 11/2020' },
-      description: {
-        fr: 'Administration des fermes Citrix et des services IT internes.',
-        en: 'Administration of Citrix farms and internal IT services.',
+      env: {
+        fr: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
+        en: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
       },
-      techs: ['Citrix', 'VMware', 'Hyper-V', 'Veeam'],
     },
-    {
-      id: 'birgma-servicedesk',
-      company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
-      role: { fr: 'IT Service Desk Analyst', en: 'IT Service Desk Analyst' },
-      type: { fr: 'CDI', en: 'Permanent Contract' },
-      period: { fr: '01/2015 - 07/2019', en: '01/2015 - 07/2019' },
-      description: {
-        fr: 'Support niveau 1 et gestion du parc informatique.',
-        en: 'Level 1 support and IT asset management.',
+  },
+  {
+    id: 'ixion-l3',
+    company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
+    role: { fr: 'Senior Specialist L3', en: 'Senior Specialist L3' },
+    type: { fr: 'CDI', en: 'Permanent Contract' },
+    period: { fr: '04/2023 - 05/2024', en: '04/2023 - 05/2024' },
+    description: {
+      fr: 'Support niveau 3 et référent technique Windows, Linux et services.',
+      en: 'Level 3 support and technical lead for Windows, Linux and services.',
+    },
+    techs: ['Windows Server', 'Linux'],
+    details: {
+      context: {
+        fr: 'Fournisseur de services IT pour entreprises suisses.',
+        en: 'IT service provider for Swiss enterprises.',
       },
-      techs: ['Windows', 'ITSM'],
+      tasks: {
+        fr: [
+          'Gestion des escalades critiques',
+          'Référent technique Windows et Linux',
+          'Diagnostic et résolution d\'incidents complexes',
+          'Support clients grands comptes',
+        ],
+        en: [
+          'Management of critical escalations',
+          'Technical lead for Windows and Linux',
+          'Diagnosis and resolution of complex incidents',
+          'Enterprise client support',
+        ],
+      },
+      env: {
+        fr: 'Windows Server / Linux / Services hybrides',
+        en: 'Windows Server / Linux / Hybrid services',
+      },
     },
-  ],
+  },
+  {
+    id: 'ixion-engineer',
+    company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
+    role: { fr: 'System Engineer', en: 'System Engineer' },
+    type: { fr: 'CDI', en: 'Permanent Contract' },
+    period: { fr: '11/2020 - 03/2023', en: '11/2020 - 03/2023' },
+    description: {
+      fr: 'Administration d\'infrastructures internes et cloud pour clients.',
+      en: 'Administration of internal and client cloud infrastructures.',
+    },
+    techs: ['VMware', 'Nutanix', 'Azure', 'Veeam', 'Centreon'],
+    details: {
+      context: {
+        fr: 'Gestion des infrastructures internes et des environnements clients dédiés.',
+        en: 'Management of internal infrastructure and dedicated client environments.',
+      },
+      tasks: {
+        fr: [
+          'Administration VMware et Nutanix',
+          'Gestion Azure et environnements cloud',
+          'Déploiement monitoring Centreon',
+          'Administration sauvegardes Veeam et Hycu',
+          'Gestion services ITSM et O365',
+        ],
+        en: [
+          'VMware and Nutanix administration',
+          'Azure and cloud environment management',
+          'Centreon monitoring deployment',
+          'Veeam and Hycu backup administration',
+          'ITSM and O365 service management',
+        ],
+      },
+      env: {
+        fr: 'VMware / Nutanix / Azure / Veeam / Hycu / Centreon',
+        en: 'VMware / Nutanix / Azure / Veeam / Hycu / Centreon',
+      },
+    },
+  },
+  {
+    id: 'birgma-admin',
+    company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
+    role: { fr: 'System Administrator', en: 'System Administrator' },
+    type: { fr: 'CDI', en: 'Permanent Contract' },
+    period: { fr: '08/2019 - 11/2020', en: '08/2019 - 11/2020' },
+    description: {
+      fr: 'Administration des fermes Citrix et des services IT internes.',
+      en: 'Administration of Citrix farms and internal IT services.',
+    },
+    techs: ['Citrix', 'VMware', 'Hyper-V', 'Veeam'],
+  },
+  {
+    id: 'birgma-servicedesk',
+    company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
+    role: { fr: 'IT Service Desk Analyst', en: 'IT Service Desk Analyst' },
+    type: { fr: 'CDI', en: 'Permanent Contract' },
+    period: { fr: '01/2015 - 07/2019', en: '01/2015 - 07/2019' },
+    description: {
+      fr: 'Support niveau 1 et gestion du parc informatique.',
+      en: 'Level 1 support and IT asset management.',
+    },
+    techs: ['Windows', 'ITSM'],
+  },
+],
 
   education: [
     {
