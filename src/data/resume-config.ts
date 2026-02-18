@@ -1,3 +1,269 @@
-// Copy resume-config.example.ts and customize it with your own information.
-// See docs/CUSTOMIZATION.md for a detailed guide.
-export { resumeConfig } from './resume-config.example'
+import type { ResumeConfig } from './types'
+
+export const resumeConfig: ResumeConfig = {
+  personal: {
+    name: 'Lucas Ruffieux',
+    photoBackEmoji: '🖥️',
+    title: {
+      fr: 'Administrateur Système & Réseau',
+      en: 'System & Network Administrator',
+    },
+    subtitle: {
+      fr: '10+ ans d\'expérience en infrastructure IT et services managés',
+      en: '10+ years of experience in IT infrastructure and managed services',
+    },
+    location: 'Fribourg, Suisse',
+  },
+
+  seo: {
+    title: 'Lucas Ruffieux — System & Network Administrator',
+    description: 'CV interactif de Lucas Ruffieux, administrateur système et réseau spécialisé en infrastructures Microsoft, virtualisation et cloud.',
+  },
+
+  languages: {
+    default: 'fr',
+    available: ['fr', 'en'],
+    labels: { fr: 'FR', en: 'EN' },
+  },
+
+  contact: [
+    { type: 'linkedin', label: 'Lucas Ruffieux', href: 'https://www.linkedin.com/in/lucas-ruffieux' },
+    { type: 'email', label: 'lucasruffieux@gmail.com' },
+    { type: 'phone', label: '079 623 50 39' },
+    { type: 'location', label: 'Fribourg, Suisse' },
+  ],
+
+  skills: [
+    {
+      title: { fr: 'Langues', en: 'Languages' },
+      type: 'languages',
+      items: [
+        { name: { fr: 'Français', en: 'French' }, level: { fr: 'Langue maternelle', en: 'Native' } },
+        { name: { fr: 'Anglais', en: 'English' }, level: { fr: 'Compétence professionnelle complète', en: 'Full professional proficiency' } },
+        { name: { fr: 'Allemand', en: 'German' }, level: { fr: 'Compétence professionnelle limitée', en: 'Limited professional proficiency' } },
+      ],
+    },
+    {
+      title: { fr: 'Cloud & Microsoft', en: 'Cloud & Microsoft' },
+      type: 'badges',
+      items: [
+        { name: 'Azure' },
+        { name: 'Microsoft 365' },
+        { name: 'Windows Server' },
+        { name: 'Exchange' },
+      ],
+    },
+    {
+      title: { fr: 'Systèmes', en: 'Operating Systems' },
+      type: 'badges',
+      items: [
+        { name: 'RHEL' },
+        { name: 'CentOS' },
+        { name: 'Debian' },
+        { name: 'Linux' },
+      ],
+    },
+    {
+      title: { fr: 'Virtualisation', en: 'Virtualization' },
+      type: 'badges',
+      items: [
+        { name: 'VMware' },
+        { name: 'Hyper-V' },
+        { name: 'Nutanix' },
+        { name: 'Docker' },
+        { name: 'Proxmox' },
+      ],
+    },
+    {
+      title: { fr: 'Storage & Backup', en: 'Storage & Backup' },
+      type: 'badges',
+      items: [
+        { name: 'Dell EMC SAN' },
+        { name: 'NetApp' },
+        { name: 'Veeam' },
+        { name: 'Hycu' },
+      ],
+    },
+    {
+      title: { fr: 'Monitoring & ITSM', en: 'Monitoring & ITSM' },
+      type: 'badges',
+      items: [
+        { name: 'Centreon' },
+        { name: 'Zabbix' },
+        { name: 'FreshDesk' },
+        { name: 'ITSM' },
+      ],
+    },
+    {
+      title: { fr: 'Réseau & Sécurité', en: 'Network & Security' },
+      type: 'badges',
+      items: [
+        { name: 'Fortinet' },
+        { name: 'Check Point' },
+        { name: 'HPE Aruba' },
+      ],
+    },
+    {
+      title: { fr: 'Scripting & Base de données', en: 'Scripting & Database' },
+      type: 'badges',
+      items: [
+        { name: 'PowerShell' },
+        { name: 'MSSQL' },
+      ],
+    },
+    {
+      title: { fr: 'Méthodologies', en: 'Methodologies' },
+      type: 'text',
+      items: [
+        { name: { fr: 'ITIL, Gestion d\'incidents, Support N2/N3', en: 'ITIL, Incident Management, L2/L3 Support' } },
+      ],
+    },
+    {
+      title: { fr: 'Qualités', en: 'Soft Skills' },
+      type: 'text',
+      items: [
+        { name: { fr: 'Résolution d\'incidents complexes, Autonomie, Communication, Gestion des priorités, Amélioration continue', en: 'Complex incident resolution, Autonomy, Communication, Priority management, Continuous improvement' } },
+      ],
+    },
+  ],
+
+  experiences: [
+    {
+      id: 'cremo',
+      company: { fr: 'Cremo SA', en: 'Cremo SA' },
+      role: { fr: 'Administrateur système et réseau', en: 'System & Network Administrator' },
+      type: { fr: 'CDI', en: 'Permanent Contract' },
+      period: { fr: '06/2024 - Présent', en: '06/2024 - Present' },
+      description: {
+        fr: 'Administration et amélioration continue de l\'infrastructure système et réseau.',
+        en: 'Administration and continuous improvement of system and network infrastructure.',
+      },
+      techs: ['Windows Server', 'Microsoft 365', 'VMware', 'NetApp', 'Veeam', 'Check Point', 'HPE Aruba'],
+    },
+    {
+      id: 'ixion-l3',
+      company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
+      role: { fr: 'Senior Specialist L3', en: 'Senior Specialist L3' },
+      type: { fr: 'CDI', en: 'Permanent Contract' },
+      period: { fr: '04/2023 - 05/2024', en: '04/2023 - 05/2024' },
+      description: {
+        fr: 'Support niveau 3 et référent technique Windows, Linux et services.',
+        en: 'Level 3 support and technical lead for Windows, Linux and services.',
+      },
+      techs: ['Windows Server', 'Linux'],
+    },
+    {
+      id: 'ixion-engineer',
+      company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
+      role: { fr: 'System Engineer', en: 'System Engineer' },
+      type: { fr: 'CDI', en: 'Permanent Contract' },
+      period: { fr: '11/2020 - 03/2023', en: '11/2020 - 03/2023' },
+      description: {
+        fr: 'Administration d\'infrastructures internes et cloud pour clients.',
+        en: 'Administration of internal and client cloud infrastructures.',
+      },
+      techs: ['VMware', 'Nutanix', 'Azure', 'Veeam', 'Centreon'],
+    },
+    {
+      id: 'birgma-admin',
+      company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
+      role: { fr: 'System Administrator', en: 'System Administrator' },
+      type: { fr: 'CDI', en: 'Permanent Contract' },
+      period: { fr: '08/2019 - 11/2020', en: '08/2019 - 11/2020' },
+      description: {
+        fr: 'Administration des fermes Citrix et des services IT internes.',
+        en: 'Administration of Citrix farms and internal IT services.',
+      },
+      techs: ['Citrix', 'VMware', 'Hyper-V', 'Veeam'],
+    },
+    {
+      id: 'birgma-servicedesk',
+      company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
+      role: { fr: 'IT Service Desk Analyst', en: 'IT Service Desk Analyst' },
+      type: { fr: 'CDI', en: 'Permanent Contract' },
+      period: { fr: '01/2015 - 07/2019', en: '01/2015 - 07/2019' },
+      description: {
+        fr: 'Support niveau 1 et gestion du parc informatique.',
+        en: 'Level 1 support and IT asset management.',
+      },
+      techs: ['Windows', 'ITSM'],
+    },
+  ],
+
+  education: [
+    {
+      school: { fr: 'Hycu', en: 'Hycu' },
+      degree: { fr: 'Private Cloud & Data Center Admin', en: 'Private Cloud & Data Center Admin' },
+      period: '2023',
+    },
+    {
+      school: { fr: 'PeopleCert', en: 'PeopleCert' },
+      degree: { fr: 'ITIL Foundation v3', en: 'ITIL Foundation v3' },
+      period: '2016',
+    },
+    {
+      school: { fr: 'Cambridge ESOL', en: 'Cambridge ESOL' },
+      degree: { fr: 'English B2 Certificate', en: 'English B2 Certificate' },
+      period: '2011',
+    },
+    {
+      school: { fr: 'CFC d\'informaticien', en: 'Federal VET Diploma in IT' },
+      degree: { fr: 'Informaticien', en: 'IT Specialist' },
+      period: '2006 - 2011',
+    },
+    {
+      school: { fr: 'Maturité professionnelle technique', en: 'Technical Professional Baccalaureate' },
+      degree: { fr: 'Maturité professionnelle', en: 'Professional Baccalaureate' },
+      period: '2006 - 2011',
+    },
+  ],
+
+  projects: [
+    {
+      id: 'homelab',
+      title: { fr: 'Homelab Infrastructure', en: 'Homelab Infrastructure' },
+      description: {
+        fr: 'Infrastructure personnelle de test incluant virtualisation, sauvegarde, monitoring et automatisation PowerShell.',
+        en: 'Personal lab environment including virtualization, backup systems, monitoring and PowerShell automation.',
+      },
+      techs: ['VMware', 'Proxmox', 'Veeam', 'Zabbix', 'Docker', 'Windows Server', 'Linux'],
+    },
+  ],
+
+  hobbies: [
+    { title: { fr: 'IT Lab / Proof of Concepts', en: 'IT Lab / Proof of Concepts' } },
+    { title: { fr: 'Musique', en: 'Music' } },
+    { title: { fr: 'Séries et films', en: 'TV Series & Movies' } },
+    { title: { fr: 'Jeux vidéos', en: 'Video Games' } },
+    { title: { fr: 'Cuisine', en: 'Cooking' } },
+    { title: { fr: 'Horlogerie', en: 'Watchmaking' } },
+    { title: { fr: 'Lecture (science-fiction)', en: 'Reading (Science Fiction)' } },
+  ],
+
+  theme: {
+    preset: 'slate',
+  },
+
+  labels: {
+    sections: {
+      contact: { fr: 'CONTACT', en: 'CONTACT' },
+      skills: { fr: 'COMPÉTENCES', en: 'SKILLS' },
+      experience: { fr: 'EXPÉRIENCES PROFESSIONNELLES', en: 'PROFESSIONAL EXPERIENCE' },
+      education: { fr: 'FORMATION & CERTIFICATIONS', en: 'EDUCATION & CERTIFICATIONS' },
+      projects: { fr: 'PROJETS', en: 'PROJECTS' },
+      hobbies: { fr: 'LOISIRS', en: 'HOBBIES' },
+    },
+    experience: {
+      mainTasks: { fr: 'Missions principales :', en: 'Main responsibilities:' },
+      moreTasks: { fr: 'autres missions...', en: 'more tasks...' },
+      training: { fr: 'Formations :', en: 'Training:' },
+      techEnv: { fr: 'Env. technique :', en: 'Tech environment:' },
+      technologies: { fr: 'Technologies', en: 'Technologies' },
+    },
+    actions: {
+      clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences to see more details' },
+      switchTheme: { fr: 'Changer le thème', en: 'Switch theme' },
+      downloadPdf: { fr: 'Télécharger le PDF', en: 'Download PDF' },
+    },
+  },
+}
