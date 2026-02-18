@@ -146,7 +146,6 @@ export const resumeConfig: ResumeConfig = {
       },
       tasks: {
         fr: [
-          'Support niveau 2 et 3',
           'Administration des serveurs Windows et de l\'environnement Microsoft 365',
           'Gestion de la virtualisation VMware',
           'Administration stockage NetApp et sauvegardes Veeam',
@@ -155,7 +154,6 @@ export const resumeConfig: ResumeConfig = {
 		  'Gestion et mise en place de projets transversaux',
         ],
         en: [
-          'Level 2 and 3 support',
           'Administration of Windows Servers and Microsoft 365 environment',
           'VMware virtualization management',
           'NetApp storage and Veeam backup administration',
