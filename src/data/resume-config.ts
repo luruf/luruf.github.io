@@ -260,14 +260,14 @@ export const resumeConfig: ResumeConfig = {
       },
       tasks: {
         fr: [
-          'Administration avancée d\'environnements Citrix : Gestion complète des fermes (versions 6.5, 7.15 et Citrix Cloud)',
-          'Pilotage d\'architectures multi-hyperviseurs : Administration et optimisation des plateformes VMware, Hyper-V et Proxmox',
-          'Gestion des systèmes collaboratifs : Administration des serveurs de messagerie Exchange et de Skype for Business',
-          'Maintien de la résilience des données : Configuration, déploiement et monitoring des sauvegardes Veeam et BackupExec',
-          'Sécurité & Conformité : Supervision des bases de données MSSQL et administration de la solution d\'archivage légal DocuWare',
-          'Gestion de la sécurité Endpoint : Administration de la console McAfee ePO pour la protection du parc',
-		  'Supervision & Monitoring : Surveillance proactive de l\'état de santé du hardware et du software pour assurer une continuité de service optimale',
-		  'Industrialisation & Support : Création de packages de déploiement, gestion du cycle de vie des incidents (Support Niveau 2) et administration de l\'outil de ticketing',
+          'Gestion complète des fermes Citrix (versions 6.5, 7.15 et Cloud)',
+          'Administration et optimisation des plateformes VMware, Hyper-V et Proxmox',
+          'Administration des serveurs de messagerie Exchange et de Skype for Business',
+          'Configuration, déploiement et monitoring des sauvegardes Veeam et BackupExec',
+          'Supervision des bases de données MSSQL et administration de la solution d\'archivage légal DocuWare',
+          'Administration de la console McAfee ePO pour la protection du parc',
+		  'Surveillance proactive de l\'état de santé du hardware et du software',
+		  'Création de packages de déploiement, gestion du cycle de vie des incidents (Support Niveau 2) et administration de l\'outil de ticketing',
         ],
         en: [
           'Advanced Administration of Citrix Environments: Comprehensive Farm Management (versions 6.5, 7.15, and Citrix Cloud)',
@@ -299,8 +299,8 @@ export const resumeConfig: ResumeConfig = {
     techs: ['Windows', 'ITSM'],
     details: {
       context: {
-        fr: 'Entreprise agroalimentaire suisse avec infrastructure multi-sites.',
-        en: 'Swiss food industry company with multi-site infrastructure.',
+        fr: 'Siège social de la société Biltema',
+        en: 'Headquarters of Biltema.',
       },
       tasks: {
         fr: [
