@@ -38,9 +38,9 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Langues', en: 'Languages' },
       type: 'languages',
       items: [
-        { name: { fr: 'Français', en: 'French' }, level: { fr: 'Langue maternelle', en: 'Native' } },
-        { name: { fr: 'Anglais', en: 'English' }, level: { fr: 'Compétence professionnelle complète', en: 'Full professional proficiency' } },
-        { name: { fr: 'Allemand', en: 'German' }, level: { fr: 'Compétence professionnelle limitée', en: 'Limited professional proficiency' } },
+        { name: { fr: 'Français', en: 'French' }, level: { fr: ' - Langue maternelle', en: ' - Native' } },
+        { name: { fr: 'Anglais', en: 'English' }, level: { fr: ' - Compétence professionnelle complète', en: ' - Full professional proficiency' } },
+        { name: { fr: 'Allemand', en: 'German' }, level: { fr: ' - Compétence professionnelle limitée', en: ' - Limited professional proficiency' } },
       ],
     },
     {
@@ -261,7 +261,7 @@ export const resumeConfig: ResumeConfig = {
       technologies: { fr: 'Technologies', en: 'Technologies' },
     },
     actions: {
-      clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences to see more details' },
+     // clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences to see more details' },
       switchTheme: { fr: 'Changer le thème', en: 'Switch theme' },
       downloadPdf: { fr: 'Télécharger le PDF', en: 'Download PDF' },
     },
