@@ -152,6 +152,7 @@ export const resumeConfig: ResumeConfig = {
           'Administration stockage NetApp et sauvegardes Veeam',
           'Gestion firewall Check Point et réseau HPE Aruba',
           'Automatisation et amélioration des services via PowerShell',
+		  'Gestion et mise en place de projets transversaux',
         ],
         en: [
           'Level 2 and 3 support',
@@ -160,6 +161,7 @@ export const resumeConfig: ResumeConfig = {
           'NetApp storage and Veeam backup administration',
           'Check Point firewall and HPE Aruba network management',
           'Service automation and improvements using PowerShell',
+		  'Management and implementation of cross-functional projects',
         ],
       },
       env: {
