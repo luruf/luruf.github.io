@@ -133,7 +133,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'Cremo SA', en: 'Cremo SA' },
     role: { fr: 'Administrateur système et réseau', en: 'System & Network Administrator' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '06.2024 - 05.2026', en: '06.2024 - 05.2026' },
+    period: { fr: '06/2024 - 05/2026', en: '06/2024 - 05/2026' },
     description: {
       fr: 'Administration et amélioration continue de l\'infrastructure système et réseau.',
       en: 'Administration and continuous improvement of system and network infrastructure.',
@@ -173,7 +173,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
     role: { fr: 'Senior Specialist L3', en: 'Senior Specialist L3' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '04.2023 - 05.2024', en: '04.2023 - 05.2024' },
+    period: { fr: '04/2023 - 05/2024', en: '04/2023 - 05/2024' },
     description: {
       fr: 'Support niveau 3 et référent technique Windows, Linux et services.',
       en: 'Level 3 support and technical lead for Windows, Linux and services.',
@@ -209,7 +209,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
     role: { fr: 'System Engineer', en: 'System Engineer' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '11.2020 - 03.2023', en: '11.2020 - 03.2023' },
+    period: { fr: '11/2020 - 03/2023', en: '11/2020 - 03/2023' },
     description: {
       fr: 'Administration d\'infrastructures internes et cloud pour clients.',
       en: 'Administration of internal and client cloud infrastructures.',
@@ -247,7 +247,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
     role: { fr: 'System Administrator', en: 'System Administrator' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '08.2019 - 11.2020', en: '08.2019 - 11.2020' },
+    period: { fr: '08/2019 - 11/2020', en: '08/2019 - 11/2020' },
     description: {
       fr: 'Administration des fermes Citrix et des services IT internes.',
       en: 'Administration of Citrix farms and internal IT services.',
