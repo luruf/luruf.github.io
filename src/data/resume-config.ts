@@ -265,12 +265,15 @@ export const resumeConfig: ResumeConfig = {
           'Administration des serveurs de messagerie Exchange et de Skype for Business',
           'Configuration, déploiement et monitoring des sauvegardes Veeam et BackupExec',
           'Supervision des bases de données MSSQL et administration de la solution d\'archivage légal DocuWare',
-          'Administration de la console McAfee ePO pour la protection du parc',
-		  'Surveillance proactive de l\'état de santé du hardware et du software',
 		  'Création de packages de déploiement, gestion du cycle de vie des incidents (Support Niveau 2) et administration de l\'outil de ticketing',
         ],
         en: [
-          
+          'Complete management of Citrix farms (versions 6.5, 7.15, and Cloud)',
+          'Administration and optimization of VMware, Hyper-V, and Proxmox platforms',
+          'Administration of Exchange and Skype for Business email servers',
+          'Configuration, deployment, and monitoring of Veeam and BackupExec backups',
+          'Supervision of MSSQL databases and administration of the DocuWare legal archiving solution',
+          'Creation of deployment packages, incident lifecycle management (Level 2 Support), and administration of the ticketing tool',
         ],
       },
       env: {
