@@ -47,10 +47,9 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Cloud & Microsoft', en: 'Cloud & Microsoft' },
       type: 'badges',
       items: [
-        { name: 'Azure' },
-        { name: 'Microsoft 365' },
+        { name: 'Microsoft 365 Admin' },
         { name: 'Windows Server' },
-        { name: 'Exchange' },
+        { name: 'Exchange On-Prem/Online' },
       ],
     },
     {
@@ -58,7 +57,6 @@ export const resumeConfig: ResumeConfig = {
       type: 'badges',
       items: [
         { name: 'RHEL' },
-        { name: 'CentOS' },
         { name: 'Debian' },
         { name: 'Linux' },
       ],
@@ -90,8 +88,9 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: 'Centreon' },
         { name: 'Zabbix' },
-        { name: 'FreshDesk' },
-        { name: 'ITSM' },
+        { name: 'Fresh Desk' },
+        { name: 'GLPI' },
+        { name: 'Action1' },
       ],
     },
     {
@@ -100,6 +99,7 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: 'Fortinet' },
         { name: 'Check Point' },
+        { name: 'SonicWall' },
         { name: 'HPE Aruba' },
       ],
     },
@@ -115,7 +115,7 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Méthodologies', en: 'Methodologies' },
       type: 'text',
       items: [
-        { name: { fr: 'ITIL, Gestion d\'incidents, Support N2/N3', en: 'ITIL, Incident Management, L2/L3 Support' } },
+        { name: { fr: 'ITIL', en: 'ITIL' } },
       ],
     },
     {
@@ -133,7 +133,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'Cremo SA', en: 'Cremo SA' },
     role: { fr: 'Administrateur système et réseau', en: 'System & Network Administrator' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '06/2024 - Présent', en: '06/2024 - Present' },
+    period: { fr: '06.2024 - 05.2026', en: '06.2024 - 05.2026' },
     description: {
       fr: 'Administration et amélioration continue de l\'infrastructure système et réseau.',
       en: 'Administration and continuous improvement of system and network infrastructure.',
@@ -173,7 +173,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
     role: { fr: 'Senior Specialist L3', en: 'Senior Specialist L3' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '04/2023 - 05/2024', en: '04/2023 - 05/2024' },
+    period: { fr: '04.2023 - 05.2024', en: '04.2023 - 05.2024' },
     description: {
       fr: 'Support niveau 3 et référent technique Windows, Linux et services.',
       en: 'Level 3 support and technical lead for Windows, Linux and services.',
@@ -209,7 +209,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'iXion Services SA', en: 'iXion Services SA' },
     role: { fr: 'System Engineer', en: 'System Engineer' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '11/2020 - 03/2023', en: '11/2020 - 03/2023' },
+    period: { fr: '11.2020 - 03.2023', en: '11.2020 - 03.2023' },
     description: {
       fr: 'Administration d\'infrastructures internes et cloud pour clients.',
       en: 'Administration of internal and client cloud infrastructures.',
@@ -247,7 +247,7 @@ export const resumeConfig: ResumeConfig = {
     company: { fr: 'Birgma International SA', en: 'Birgma International SA' },
     role: { fr: 'System Administrator', en: 'System Administrator' },
     type: { fr: 'CDI', en: 'Permanent Contract' },
-    period: { fr: '08/2019 - 11/2020', en: '08/2019 - 11/2020' },
+    period: { fr: '08.2019 - 11.2020', en: '08.2019 - 11.2020' },
     description: {
       fr: 'Administration des fermes Citrix et des services IT internes.',
       en: 'Administration of Citrix farms and internal IT services.',
@@ -312,7 +312,6 @@ export const resumeConfig: ResumeConfig = {
     { title: { fr: 'IT Lab / Proof of Concepts', en: 'IT Lab / Proof of Concepts' } },
     { title: { fr: 'Musique', en: 'Music' } },
     { title: { fr: 'Séries et films', en: 'TV Series & Movies' } },
-    { title: { fr: 'Jeux vidéos', en: 'Video Games' } },
     { title: { fr: 'Cuisine', en: 'Cooking' } },
     { title: { fr: 'Horlogerie', en: 'Watchmaking' } },
     { title: { fr: 'Lecture (science-fiction)', en: 'Reading (Science Fiction)' } },
