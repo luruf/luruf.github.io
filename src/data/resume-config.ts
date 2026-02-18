@@ -178,7 +178,7 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Support niveau 3 et référent technique Windows, Linux et services.',
       en: 'Level 3 support and technical lead for Windows, Linux and services.',
     },
-    techs: ['Windows Server', 'Linux'],
+    techs: ['Windows Server', 'Linux', 'Fortinet'],
     details: {
       context: {
         fr: 'Fournisseur de services IT pour entreprises suisses.',
