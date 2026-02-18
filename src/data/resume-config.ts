@@ -256,7 +256,7 @@ export const resumeConfig: ResumeConfig = {
     details: {
       context: {
         fr: 'Siège social de la société Biltema',
-        en: 'Headquarters of Biltema.',
+        en: 'Headquarters of Biltema',
       },
       tasks: {
         fr: [
@@ -270,14 +270,7 @@ export const resumeConfig: ResumeConfig = {
 		  'Création de packages de déploiement, gestion du cycle de vie des incidents (Support Niveau 2) et administration de l\'outil de ticketing',
         ],
         en: [
-          'Advanced Administration of Citrix Environments: Comprehensive Farm Management (versions 6.5, 7.15, and Citrix Cloud)',
-          'Multi-Hypervisor Architecture Management: Administration and Optimization of VMware, Hyper-V, and Proxmox Platforms',
-          'Collaborative Systems Management: Administration of Exchange and Skype for Business Messaging Servers',
-          'Maintaining Data Resilience: Configuration, Deployment, and Monitoring of Veeam and BackupExec Backups',
-          'Security & Compliance: Supervision of MSSQL Databases and Administration of the DocuWare Legal Archiving Solution',
-          'Endpoint Security Management: Administration of the McAfee ePO Console for Fleet Protection',
-		  'Supervision & Monitoring: Proactive monitoring of hardware and software health to ensure optimal service continuity',
-          'Industrialization & Support: Creation of deployment packages, incident lifecycle management (Level 2 Support) and administration of the ticketing tool',
+          
         ],
       },
       env: {
@@ -300,7 +293,7 @@ export const resumeConfig: ResumeConfig = {
     details: {
       context: {
         fr: 'Siège social de la société Biltema',
-        en: 'Headquarters of Biltema.',
+        en: 'Headquarters of Biltema',
       },
       tasks: {
         fr: [
