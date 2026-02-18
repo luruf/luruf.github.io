@@ -277,8 +277,8 @@ export const resumeConfig: ResumeConfig = {
         ],
       },
       env: {
-        fr: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
-        en: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
+        fr: 'Citrix / Windows Server / VMware / Veeam / SonicWall / PowerShell',
+        en: 'Citrix / Windows Server / VMware / Veeam / SonicWall / PowerShell',
       },
     },
   },
@@ -313,8 +313,8 @@ export const resumeConfig: ResumeConfig = {
         ],
       },
       env: {
-        fr: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
-        en: 'Windows Server / Microsoft 365 / VMware / NetApp / Veeam / Check Point / Aruba / PowerShell',
+        fr: 'ManageEngine ServiceDesk / Windows Server / McAfee / Skype for Business / Exchange 2013',
+        en: 'ManageEngine ServiceDesk / Windows Server / McAfee / Skype for Business / Exchange 2013',
       },
     },
   },
