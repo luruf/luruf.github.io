@@ -138,6 +138,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Administration et amélioration continue de l\'infrastructure système et réseau.',
         en: 'Administration and continuous improvement of system and network infrastructure.',
       },
+      details: { fr: 'Test', en: 'Test' },
       techs: ['Windows Server', 'Microsoft 365', 'VMware', 'NetApp', 'Veeam', 'Check Point', 'HPE Aruba'],
     },
     {
@@ -261,7 +262,7 @@ export const resumeConfig: ResumeConfig = {
       technologies: { fr: 'Technologies', en: 'Technologies' },
     },
     actions: {
-     // clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences to see more details' },
+      clickHint: { fr: 'Cliquez sur les expériences pour voir plus de détails', en: 'Click on experiences to see more details' },
       switchTheme: { fr: 'Changer le thème', en: 'Switch theme' },
       downloadPdf: { fr: 'Télécharger le PDF', en: 'Download PDF' },
     },
