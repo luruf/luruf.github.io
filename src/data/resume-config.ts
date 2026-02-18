@@ -127,8 +127,8 @@ export const resumeConfig: ResumeConfig = {
     },
   ],
 
-experiences: [
-  {
+  experiences: [
+    {
     id: 'cremo',
     company: { fr: 'Cremo SA', en: 'Cremo SA' },
     role: { fr: 'Administrateur système et réseau', en: 'System & Network Administrator' },
@@ -139,7 +139,6 @@ experiences: [
       en: 'Administration and continuous improvement of system and network infrastructure.',
     },
     techs: ['Windows Server', 'Microsoft 365', 'VMware', 'NetApp', 'Veeam', 'Check Point', 'HPE Aruba'],
-    isHighlighted: true,
     details: {
       context: {
         fr: 'Entreprise agroalimentaire suisse avec infrastructure multi-sites.',
