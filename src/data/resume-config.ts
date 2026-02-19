@@ -353,10 +353,10 @@ export const resumeConfig: ResumeConfig = {
       id: 'homelab',
       title: { fr: 'Homelab Infrastructure', en: 'Homelab Infrastructure' },
       description: {
-        fr: 'Infrastructure personnelle de test incluant virtualisation, sauvegarde, monitoring et automatisation PowerShell.',
-        en: 'Personal lab environment including virtualization, backup systems, monitoring and PowerShell automation.',
+        fr: 'Infrastructure personnelle de test faisant tourner plusieurs services 24/7 tels que : services de streaming, bibliothèque en ligne, base de connaissance, reverse proxy ...',
+        en: 'Personal test infrastructure running multiple services 24/7 such as: streaming services, online library, knowledge base, reverse proxy...',
       },
-      techs: ['VMware', 'Proxmox', 'Veeam', 'Zabbix', 'Docker', 'Windows Server', 'Linux'],
+      techs: ['Proxmox', 'Synology', 'TrueNAS', 'Zabbix', 'Docker', 'nginx', 'Linux'],
     },
   ],
 
